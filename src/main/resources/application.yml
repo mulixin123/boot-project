@@ -1,0 +1,17 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/project?serverTimezone=Asia/Shanghai
+    username: root
+    password: 666
+  mail:
+      host: smtp.163.com
+      username: newonehashmap@163.com
+      password: YZCZGPLXFZZPHJYV
+
+  redis:
+    database: 1
+  task:
+    execution:
+      pool:
+        core-size: 50 #修改线程数
