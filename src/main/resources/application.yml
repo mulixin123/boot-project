@@ -14,4 +14,4 @@ spring:
   task:
     execution:
       pool:
-        core-size: 50 #修改线程数
+        core-size: 20 #修改线程数
